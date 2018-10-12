@@ -61,8 +61,9 @@ public class Empresa implements Serializable {
 	public void setCnpj(String cnpj) {
 		this.cnpj = cnpj;
 	}
+	
 
-	@Column(name = "data_criacao", nullable = false)
+    @Column(name = "data_criacao", nullable = false)
 	public Date getDataCriacao() {
 		return dataCriacao;
 	}
